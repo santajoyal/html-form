@@ -1,0 +1,22 @@
+.row{
+    margin: 30px 10px;
+    padding: 10px;
+    background-color:antiquewhite
+}
+.col-lg-3{
+    background-color:darkgray
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+}
+th{
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+table,th,td{
+    border: 3px solid black;
+    padding: 5px 10px;
+
+}

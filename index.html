@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">HTML Form</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <form action="">
+                    <label for="fn">First Name:</label><br>
+                    <input type="text" id="fn" required><br>
+
+                    <label for="ln">Last Name:</label><br>
+                    <input type="text" id="ln" required><br>
+
+                    <label for="address"> Address:</label><br>
+                    <input type="text" id="address" required><br>
+
+                    <label for="pincode">Pincode:</label><br>
+                    <input type="number" id="pincode" required><br>
+
+                    <label for="">Gender:</label><br>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label><br>
+
+                    <label for="">Food</label><br>
+                    <input type="checkbox" name="food" id="veg" value="veg">
+                    <label for="veg">Veg</label><br>
+                    <input type="checkbox" name="food" id="non-veg" value="non-veg">
+                    <label for="non-veg">Non-Veg</label><br>
+                    <input type="checkbox" name="food" id="fastfood" value="fast food">
+                    <label for="fastfood">Fast Food</label><br>
+                    <input type="checkbox" name="food" id="seafood" value="sea food">
+                    <label for="seafood">Sea Food</label><br>
+                    <input type="checkbox" name="food" id="snackfood" value="snack food">
+                    <label for="snackfood">Snack Food</label><br>
+             
+                    <label for="state">State:</label><br>
+                    <input type="text" id="state"><br>
+
+                    <label for="country">Country:</label><br>
+                    <input type="text" id="country"><br><br>
+
+                    <button type="button" id="submit" onclick="foo()">Submit</button>
+                </form>
+            </div>
+            <div class="col-lg-9">
+                <form action="">
+                    <h1>Database</h1>
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>FirstName</th>
+                                <th>LastName</th>
+                                <th>Address</th>
+                                <th>Pincode</th>
+                                <th>Gender</th>
+                                <th>Food</th>
+                                <th>State</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
